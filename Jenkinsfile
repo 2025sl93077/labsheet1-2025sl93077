@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/2025sl93077/labsheet1-2025sl93077'
+                git 'https://github.com/2025sl93077/labsheet1-2025sl93077.git'
             }
         }
 
